@@ -1,5 +1,5 @@
 CMD = pdflatex
-DOC = arc-class-proposal
+DOC = rv-paper
 all: 
 	$(CMD) $(DOC) && bibtex $(DOC) && $(CMD) $(DOC) && $(CMD) $(DOC) 
 
